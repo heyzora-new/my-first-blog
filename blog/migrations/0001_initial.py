@@ -19,7 +19,7 @@ class Migration(migrations.Migration):
             name='Post',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('titel', models.CharField(max_length=200)),
+                ('title', models.CharField(max_length=200)),
                 ('text', models.TextField()),
                 ('created_date', models.DateTimeField(default=django.utils.timezone.now)),
                 ('published_date', models.DateTimeField(blank=True, null=True)),
